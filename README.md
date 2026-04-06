@@ -120,29 +120,11 @@ tduex --help
 
 正式な配布物は GitHub Releases の Windows 用 zip です。`Go` も `sh` も不要です。
 
-まずは `tduex_Windows_x86_64.zip` をダウンロードして展開し、中の `tduex.exe` を使ってください。これが一番失敗しにくいです。
+リポジトリを clone 済みで、直下に `tduex.exe` がある場合はそれをそのまま実行しても使えます。
 
-補助として PowerShell スクリプトでも同じ zip を自動取得できます。
+ない場合は、tduex_Windows_x86_64.zip を展開してお使いください
 
-```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\install.ps1
-```
-
-このスクリプトは GitHub Releases から zip を取得して展開し、`%LOCALAPPDATA%\Programs\tduex\bin` に `tduex.exe` を入れ、必要ならユーザー PATH に追加します。
-
-特定バージョンを入れたい場合:
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\install.ps1 -Version v0.1.0
-```
-
-手元にある exe を入れたい場合:
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\install.ps1 -SourceExe .\tduex.exe
-```
-
-Release がまだ無い開発中の状態では、`Go` が入っていれば最後にローカルビルドへフォールバックします。
+windowsの場合、このフォルダ直下であればtduexを使うことができます
 
 ### **macOS / Linux 最短**
 
