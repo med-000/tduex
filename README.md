@@ -126,6 +126,12 @@ tduex --help
 
 windowsの場合、このフォルダ直下であればtduexを使うことができます
 
+```bash
+git clone <repo>
+cd tduex
+tduex
+```
+
 ### **macOS / Linux 最短**
 
 ```bash
