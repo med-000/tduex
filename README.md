@@ -118,10 +118,18 @@ powershell -ExecutionPolicy Bypass -File .\scripts\install.ps1
 
 このスクリプトは GitHub Releases から `tduex.exe` を取得して、`%LOCALAPPDATA%\Programs\tduex\bin` に入れ、必要ならユーザー PATH に追加します。
 
+まだ Release を作っていない開発中の状態では、リポジトリ直下の `tduex.exe` か `dist\tduex.exe` も使えます。`Go` が入っていれば最後にローカルビルドへフォールバックします。
+
 特定バージョンを入れたい場合:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\install.ps1 -Version v0.1.0
+```
+
+手元の exe を使いたい場合:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\install.ps1 -SourceExe .\tduex.exe
 ```
 
 ### **macOS / Linux 最短**
