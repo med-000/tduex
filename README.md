@@ -26,12 +26,13 @@
 .
 ├── cmd
 │   └── tduex
-├── pkg
+├── internal
 │   ├── appconfig
 │   ├── logger
 │   ├── parser
 │   ├── scraping
-│   └── service
+│   ├── service
+│   └── tduexcli
 ├── scripts
 │   └── install.sh
 ├── Makefile
@@ -44,8 +45,8 @@
 `tduex` が行う基本処理は以下です。
 
 1. 設定ファイルを読み込む
-2. 必要なら `USER_ID` と `PASSWORD` を入力して `~/.config/tduex/.usersetting` に保存する
-3. LMS から講義一覧または event 情報を取得する
+2. 必要なら認証情報を入力して `~/.config/tduex/.usersetting` に保存する
+3. webclassから講義一覧または event 情報を取得する
 4. 指定形式で export する
 
 ## **Commands**
@@ -78,8 +79,7 @@ go run ./cmd/tduex
 5. period
 6. export 形式
 
-`USER_ID` / `PASSWORD` が未設定なら、その前に入力を求めて `~/.config/tduex/.usersetting` に保存します。
-
+`USER_ID` / `PASSWORD` が未設定なら、その前に入力を求めて `~/.config/tduex/.usersetting` に保存します。  
 fetch に失敗した場合は、`.usersetting` の `USER_ID` / `PASSWORD` を確認するようメッセージを表示します。
 
 ### **CLI 実行**
@@ -156,6 +156,24 @@ make build
   `externalId`, `year`, `term`, `classes[]`
 - `json` の `classes[]`
   `externalId`, `day`, `period`, `title`
+- `json` の例
+
+```json
+{
+  "externalId": "2025_1",
+  "year": 2025,
+  "term": 1,
+  "classes": [
+    {
+      "externalId": "xxxxxxxxxxxxxxxx",
+      "day": 2,
+      "period": 1,
+      "title": "コンピュータ構成"
+    }
+  ]
+}
+```
+
 - `csv`
   1 行 1 講義
 - `csv` / `xlsx` の列
@@ -178,6 +196,33 @@ make build
   `externalId`, `day`, `period`, `title`, `events[]`
 - `json` の `events[]`
   `externalId`, `name`, `category`, `date`, `groupName`
+- `json` の例
+
+```json
+{
+  "externalId": "2025_1",
+  "year": 2025,
+  "term": 1,
+  "classes": [
+    {
+      "externalId": "xxxxxxxxxxxxx",
+      "day": 2,
+      "period": 1,
+      "title": "コンピュータ構成",
+      "events": [
+        {
+          "externalId": "xxxxxxxxxxxxxxx",
+          "name": "期末考査対策用自習教材を置いておきます",
+          "category": "資料",
+          "date": "",
+          "groupName": "期末考査対策用"
+        }
+      ]
+    }
+  ]
+}
+```
+
 - `csv`
   1 行 1 event
 - `csv` / `xlsx` の列
@@ -210,12 +255,6 @@ tduex full -year 2025 -term 1 -format json,csv -dialog=false
 - `BASE_URL`
 - `LOGIN_URL`
 
-一般設定は `~/.config/tduex/.setting`、認証情報は `~/.config/tduex/.usersetting` に保存できます。  
-互換のため、カレントディレクトリの `.setting` / `.usersetting` もあれば読み込みます。
-
-- `USER_ID`
-- `PASSWORD`
-
 例:
 
 `~/.config/tduex/.setting`
@@ -232,6 +271,9 @@ LOGIN_URL=https://els.sa.dendai.ac.jp/webclass/login.php
 USER_ID=your_user_id
 PASSWORD=your_password
 ```
+
+一般設定は `~/.config/tduex/.setting`、認証情報は `~/.config/tduex/.usersetting` に保存できます。  
+互換のため、カレントディレクトリの `.setting` / `.usersetting` もあれば読み込みます。
 
 ## **Technical Highlights**
 
