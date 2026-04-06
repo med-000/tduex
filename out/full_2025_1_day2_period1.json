@@ -1,0 +1,498 @@
+{
+  "externalId": "2025_1",
+  "year": 2025,
+  "term": 1,
+  "classes": [
+    {
+      "externalId": "202511098918020101",
+      "day": 2,
+      "period": 1,
+      "title": "コンピュータ構成",
+      "events": [
+        {
+          "externalId": "2b7e9aabc4777870a7d55dd003352aea",
+          "name": "期末考査対策用自習教材を置いておきます",
+          "category": "資料",
+          "date": "",
+          "groupName": "期末考査対策用"
+        },
+        {
+          "externalId": "562a3d981964fb8f1addd781967fa170",
+          "name": "(自習用) ノイマン型コンピュータ　小テスト１",
+          "category": "自習",
+          "date": "2025/04/22 11:00 - 2025/07/31 09:20",
+          "groupName": "期末考査対策用"
+        },
+        {
+          "externalId": "aadb97909e59964d0f04d442c3add7ec",
+          "name": "(自習用) ノイマン型コンピュータ　小テスト２",
+          "category": "自習",
+          "date": "2025/04/22 11:00 - 2025/07/31 09:20",
+          "groupName": "期末考査対策用"
+        },
+        {
+          "externalId": "0037ac19341a7b8ab7e2663fb0e2dc9c",
+          "name": "(自習用) 4月22日の復習",
+          "category": "自習",
+          "date": "2025/04/29 11:00 - 2025/07/31 09:20",
+          "groupName": "期末考査対策用"
+        },
+        {
+          "externalId": "f6a92a8e97ba40acfa7b18c7ccef342c",
+          "name": "(自習用) 小テスト「命令セット」",
+          "category": "自習",
+          "date": "2025/04/29 11:00 - 2025/07/31 09:20",
+          "groupName": "期末考査対策用"
+        },
+        {
+          "externalId": "14d79b9974eb4ed468d40c30c8500146",
+          "name": "(自習用) 小テスト「アセンブリ言語」",
+          "category": "自習",
+          "date": "2025/04/29 11:00 - 2025/07/31 09:20",
+          "groupName": "期末考査対策用"
+        },
+        {
+          "externalId": "d60444891e36a7379cc7d866ef6a37f7",
+          "name": "(自習用) 小テスト「アドレッシングモード」",
+          "category": "自習",
+          "date": "2025/05/13 10:00 - 2025/07/31 09:20",
+          "groupName": "期末考査対策用"
+        },
+        {
+          "externalId": "d3ee09b4c0dafbebfa8905be11d46b7a",
+          "name": "(自習用) 小テスト「アセンブラの理解（SUBとCPとJZE）」",
+          "category": "自習",
+          "date": "2025/05/13 10:00 - 2025/07/31 09:20",
+          "groupName": "期末考査対策用"
+        },
+        {
+          "externalId": "00016def27ed357384acfba9536ded99",
+          "name": "(自習用) 小テスト「ハーバードアーキテクチャ」",
+          "category": "自習",
+          "date": "2025/05/13 10:00 - 2025/07/31 09:20",
+          "groupName": "期末考査対策用"
+        },
+        {
+          "externalId": "4cf5ecdbffb94febe1df8fb2df6ab702",
+          "name": "(自習用) 小テスト「CISCとRISC」",
+          "category": "自習",
+          "date": "2025/05/20 10:00 - 2025/07/31 09:20",
+          "groupName": "期末考査対策用"
+        },
+        {
+          "externalId": "9fd227b2d41f18709d32f79f8098319f",
+          "name": "(自習用) 小テスト「ハーバードアーキテクチャとRISC・CISCの復習」",
+          "category": "自習",
+          "date": "2025/05/20 10:00 - 2025/07/31 09:20",
+          "groupName": "期末考査対策用"
+        },
+        {
+          "externalId": "70628a838f512decf11da9f41bd7e6e4",
+          "name": "(自習用) 小テスト「データ表現」",
+          "category": "自習",
+          "date": "2025/05/27 10:00 - 2025/07/31 09:20",
+          "groupName": "期末考査対策用"
+        },
+        {
+          "externalId": "8ac72484393d9483e4cd39bbaf5e8e9a",
+          "name": "(自習用) 小テスト「データ表現と加減算」",
+          "category": "自習",
+          "date": "2025/05/27 10:00 - 2025/07/31 09:20",
+          "groupName": "期末考査対策用"
+        },
+        {
+          "externalId": "2b86f70787e99297d8c2bf2f8b1551b4",
+          "name": "(自習用) 小テスト「冗長2進数」",
+          "category": "自習",
+          "date": "2025/06/03 10:00 - 2025/07/31 09:20",
+          "groupName": "期末考査対策用"
+        },
+        {
+          "externalId": "cae735451aa00d97aaaf5025531477f7",
+          "name": "(自習用) 小テスト「制御アーキテクチャ」",
+          "category": "自習",
+          "date": "2025/06/10 11:00 - 2025/07/31 09:20",
+          "groupName": "期末考査対策用"
+        },
+        {
+          "externalId": "32ab3fb2a120894796bf772677d5a0c4",
+          "name": "(自習用) 小テスト「メモリアーキテクチャ」",
+          "category": "自習",
+          "date": "2025/06/17 10:00 - 2025/07/31 09:20",
+          "groupName": "期末考査対策用"
+        },
+        {
+          "externalId": "9121d783d09f5211aca5219317fc9d53",
+          "name": "(自習用) 小テスト「キャッシュメモリ」",
+          "category": "自習",
+          "date": "2025/07/08 10:00 - 2025/07/31 09:20",
+          "groupName": "期末考査対策用"
+        },
+        {
+          "externalId": "4d921c383795a4466da39d3002dbea2d",
+          "name": "4/29と5/13小テスト分",
+          "category": "資料",
+          "date": "",
+          "groupName": "小テスト（要計算問題）問題解答例"
+        },
+        {
+          "externalId": "f3f3cec93e5f0be9189e6c55f4293fb1",
+          "name": "ガイダンス資料",
+          "category": "資料",
+          "date": "",
+          "groupName": "4月15日分"
+        },
+        {
+          "externalId": "f0912fc33ac09db09c593e5c9237af42",
+          "name": "第1回講義資料",
+          "category": "資料",
+          "date": "",
+          "groupName": "4月15日分"
+        },
+        {
+          "externalId": "7bba902d66db6518e51169c5f16ca765",
+          "name": "第2回講義資料",
+          "category": "資料",
+          "date": "",
+          "groupName": "4月22日分"
+        },
+        {
+          "externalId": "4bdf22153175b0d29b97b7c0e0f3224e",
+          "name": "ノイマン型コンピュータ　小テスト１",
+          "category": "試験",
+          "date": "2025/04/22 11:00 - 2025/05/01 09:20",
+          "groupName": "4月22日分"
+        },
+        {
+          "externalId": "1b155063276781f91a4cd05f2122cbdc",
+          "name": "ノイマン型コンピュータ　小テスト２",
+          "category": "試験",
+          "date": "2025/04/22 11:00 - 2025/05/01 09:20",
+          "groupName": "4月22日分"
+        },
+        {
+          "externalId": "ad1a49322dbd6f19bcfa8cdb519f3479",
+          "name": "小テストの公開について/解答時不具合生じた場合",
+          "category": "掲示板",
+          "date": "最新の投稿 11ヵ月前",
+          "groupName": "4月22日分"
+        },
+        {
+          "externalId": "7586b6385a33ad446d0acedc19deca71",
+          "name": "第3回講義資料",
+          "category": "資料",
+          "date": "",
+          "groupName": "4月29日分"
+        },
+        {
+          "externalId": "36c4b50765d9dbf21a0328d4723ffaf5",
+          "name": "小テスト「4月22日の復習」",
+          "category": "試験",
+          "date": "2025/04/29 11:00 - 2025/05/13 09:20",
+          "groupName": "4月29日分"
+        },
+        {
+          "externalId": "2acbb27c7b80d43d31677bedf082fa19",
+          "name": "小テスト「命令セット」",
+          "category": "試験",
+          "date": "2025/04/29 11:00 - 2025/05/13 09:20",
+          "groupName": "4月29日分"
+        },
+        {
+          "externalId": "3101b463f62814e3fc5f9aa49ad802cb",
+          "name": "小テスト「アセンブリ言語」",
+          "category": "試験",
+          "date": "2025/04/29 11:00 - 2025/05/13 09:20",
+          "groupName": "4月29日分"
+        },
+        {
+          "externalId": "a65135c75d5b2c0157d91744e41a3626",
+          "name": "第4回講義資料",
+          "category": "資料",
+          "date": "",
+          "groupName": "5月13日分"
+        },
+        {
+          "externalId": "0a20939e8b1df0bb256f2114c6b4dde9",
+          "name": "小テスト「アドレッシングモード」",
+          "category": "試験",
+          "date": "2025/05/13 10:00 - 2025/05/20 09:20",
+          "groupName": "5月13日分"
+        },
+        {
+          "externalId": "6f779cf29a43a86e296e8ed0dfb84a0e",
+          "name": "小テスト「アセンブラの理解（SUBとCPとJZE）」",
+          "category": "試験",
+          "date": "2025/05/13 10:00 - 2025/05/20 09:20",
+          "groupName": "5月13日分"
+        },
+        {
+          "externalId": "01cb39e8a4950e565c8be952b04189f6",
+          "name": "小テスト「ハーバードアーキテクチャ」",
+          "category": "試験",
+          "date": "2025/05/13 10:00 - 2025/05/20 09:20",
+          "groupName": "5月13日分"
+        },
+        {
+          "externalId": "e1c04ea46bb7aa981b77064a6fa986b6",
+          "name": "第5回講義資料",
+          "category": "資料",
+          "date": "",
+          "groupName": "5月20日分"
+        },
+        {
+          "externalId": "d643f307060558a4f8c1ab284b3ffd6e",
+          "name": "小テスト「CISCとRISC」",
+          "category": "試験",
+          "date": "2025/05/20 10:00 - 2025/05/27 09:20",
+          "groupName": "5月20日分"
+        },
+        {
+          "externalId": "568b5708869e20d6a655f722de14954c",
+          "name": "小テスト「ハーバードアーキテクチャとRISC・CISCの復習」",
+          "category": "試験",
+          "date": "2025/05/20 10:00 - 2025/05/27 09:20",
+          "groupName": "5月20日分"
+        },
+        {
+          "externalId": "8c45cbb1eaefa7b0b5903af1b0ea3545",
+          "name": "参考資料 整数表現四方山話",
+          "category": "資料",
+          "date": "",
+          "groupName": "5月27日分"
+        },
+        {
+          "externalId": "6b94444e3f7f6e10e739db360bbbe467",
+          "name": "第6回講義資料",
+          "category": "資料",
+          "date": "",
+          "groupName": "5月27日分"
+        },
+        {
+          "externalId": "18b76690e277cd8bdb07b44c38303666",
+          "name": "小テスト「データ表現」",
+          "category": "試験",
+          "date": "2025/05/27 10:00 - 2025/06/03 09:20",
+          "groupName": "5月27日分"
+        },
+        {
+          "externalId": "89bdf0a687a5d7d8d454b506c55f1f0f",
+          "name": "小テスト「データ表現と加減算」",
+          "category": "試験",
+          "date": "2025/05/27 10:00 - 2025/06/03 09:20",
+          "groupName": "5月27日分"
+        },
+        {
+          "externalId": "5af488b301260b5fe8efe7e9874a351e",
+          "name": "第7回講義資料",
+          "category": "資料",
+          "date": "",
+          "groupName": "6月3日分"
+        },
+        {
+          "externalId": "edf7b1b8fa752e052cadde2df2de10fd",
+          "name": "小テスト「冗長2進数」",
+          "category": "試験",
+          "date": "2025/06/03 10:00 - 2025/06/10 09:20",
+          "groupName": "6月3日分"
+        },
+        {
+          "externalId": "9e5f4c0961afe86a24bdd3810e09642d",
+          "name": "第8回講義資料",
+          "category": "資料",
+          "date": "",
+          "groupName": "6月10日分"
+        },
+        {
+          "externalId": "194e5e5bab44536c6b808a182ae11170",
+          "name": "第8回配付資料",
+          "category": "資料",
+          "date": "",
+          "groupName": "6月10日分"
+        },
+        {
+          "externalId": "dbaafdcf2b54117f2b0eb96f2b357cb8",
+          "name": "小テスト「制御アーキテクチャ」",
+          "category": "試験",
+          "date": "2025/06/10 11:00 - 2025/06/17 09:20",
+          "groupName": "6月10日分"
+        },
+        {
+          "externalId": "e1064633cd4b2b76c0083c8079baafd8",
+          "name": "小テスト「2進数の乗算」について",
+          "category": "掲示板",
+          "date": "最新の投稿 9ヵ月前",
+          "groupName": "6月10日分"
+        },
+        {
+          "externalId": "9c48b10df0184e8f67da395290afaaac",
+          "name": "配布資料",
+          "category": "資料",
+          "date": "",
+          "groupName": "中間期相当のレポート"
+        },
+        {
+          "externalId": "b1dcf6437fc0e3f1e1a07f0f17b6aaac",
+          "name": "課題",
+          "category": "資料",
+          "date": "",
+          "groupName": "中間期相当のレポート"
+        },
+        {
+          "externalId": "3343850e9bd3bc4a7c521c7ab5633f50",
+          "name": "個別のレポート課題配布",
+          "category": "レポート",
+          "date": "",
+          "groupName": "中間期相当のレポート"
+        },
+        {
+          "externalId": "d47623079ca7909d3577b7be0b493fb6",
+          "name": "レポートの提出（締め切りは７月１日２３時５９分）",
+          "category": "レポート",
+          "date": "2025/06/10 11:00 - 2025/07/01 23:59",
+          "groupName": "中間期相当のレポート"
+        },
+        {
+          "externalId": "efae690bf11d6f6557191fd1497217f8",
+          "name": "レポートに関して受けた質問です",
+          "category": "掲示板",
+          "date": "最新の投稿 9ヵ月前",
+          "groupName": "中間期相当のレポート"
+        },
+        {
+          "externalId": "f7171fa1401a778a66b11975fa83e907",
+          "name": "第9回講義資料",
+          "category": "資料",
+          "date": "",
+          "groupName": "6月17日分"
+        },
+        {
+          "externalId": "e175691dd904ee79fa21a97128abb558",
+          "name": "小テスト「メモリアーキテクチャ」",
+          "category": "試験",
+          "date": "2025/06/17 10:00 - 2025/06/24 09:20",
+          "groupName": "6月17日分"
+        },
+        {
+          "externalId": "6406ed848d8955797e3cf6b20317c843",
+          "name": "レポート（2進数の乗算・改）",
+          "category": "レポート(成績非公開)",
+          "date": "2025/06/17 09:00 - 2025/06/24 09:00",
+          "groupName": "6月17日分"
+        },
+        {
+          "externalId": "de777a815e7aa0c4d3fcc9404a281db6",
+          "name": "第10回講義資料",
+          "category": "資料",
+          "date": "",
+          "groupName": "6月24日分"
+        },
+        {
+          "externalId": "39e49fd79a78e88357e412c9da5e14d9",
+          "name": "仮想メモリの参考資料　2020年度後期オペレーティングシステムＩ　メモリ管理",
+          "category": "資料",
+          "date": "",
+          "groupName": "6月24日分"
+        },
+        {
+          "externalId": "e6830d202753bc7e908d9276799333f2",
+          "name": "6/24授業 上野クラスのZoomURL",
+          "category": "掲示板",
+          "date": "最新の投稿 9ヵ月前",
+          "groupName": "6月24日分"
+        },
+        {
+          "externalId": "b9ff73c9c3c9acce779ad3100349b51f",
+          "name": "第11回講義資料",
+          "category": "資料",
+          "date": "",
+          "groupName": "7月1日分"
+        },
+        {
+          "externalId": "ae7d952e49dc5cf903a17c10055671a5",
+          "name": "期末案内",
+          "category": "資料",
+          "date": "",
+          "groupName": "7月1日分"
+        },
+        {
+          "externalId": "e6b73ce982e5629315cd56049acf646d",
+          "name": "第12回・第13回講義資料",
+          "category": "資料",
+          "date": "",
+          "groupName": "7月8日分"
+        },
+        {
+          "externalId": "c4c9e894454ac3ad8bf11ad348343ad2",
+          "name": "パイプライン洗濯のパラパラ漫画1",
+          "category": "資料",
+          "date": "",
+          "groupName": "7月8日分"
+        },
+        {
+          "externalId": "4c746e75c6fe7edc8a82fc31a99e4061",
+          "name": "パイプライン洗濯のパラパラ漫画2",
+          "category": "資料",
+          "date": "",
+          "groupName": "7月8日分"
+        },
+        {
+          "externalId": "0fe92a78e48e949afdf6de01923334dd",
+          "name": "小テスト「キャッシュメモリ」",
+          "category": "試験",
+          "date": "2025/07/08 10:00 - 2025/07/15 09:20",
+          "groupName": "7月8日分"
+        },
+        {
+          "externalId": "91cada3af95836c04d2a7aeb1cd6a28f",
+          "name": "講義資料は7月8日分を使います",
+          "category": "資料",
+          "date": "",
+          "groupName": "7月15日分"
+        },
+        {
+          "externalId": "506b97756e7cc9e1785ed26be64950c3",
+          "name": "[自習用] 小テスト「パイプラインアーキテクチャ」",
+          "category": "自習",
+          "date": "2025/07/15 11:00 - 2025/07/31 23:59",
+          "groupName": "7月15日分"
+        },
+        {
+          "externalId": "9fad828c2c83d3c5edf74642801a1df0",
+          "name": "[自習用] 小テスト「サブルーチンとスタック」（4月22日の「第２章　ノイマン型コンピュータ　追加資料　サブルーチンとスタック」の資料を読んでから）",
+          "category": "自習",
+          "date": "2025/07/15 11:00 - 2025/07/31 23:59",
+          "groupName": "7月15日分"
+        },
+        {
+          "externalId": "ead2d136c2a011c2ff4140805a4cacb1",
+          "name": "【期末考査】座席配慮必要な人は個別連絡下さい",
+          "category": "資料",
+          "date": "",
+          "groupName": "7月15日分"
+        },
+        {
+          "externalId": "4845366ad7f3f8c62c10a4a5b94f816c",
+          "name": "学力考査（期末）は5号館2階の5204および5205教室で実施します",
+          "category": "資料",
+          "date": "2025/07/09 00:50 - 2025/07/22 11:00",
+          "groupName": "7月22日"
+        },
+        {
+          "externalId": "5ce6621cfb4e297573088ee0fff8716a",
+          "name": "持ち込み出来るのは「手書きしたA4の紙、1枚」です",
+          "category": "資料",
+          "date": "",
+          "groupName": "7月22日"
+        },
+        {
+          "externalId": "a1f81232b28c9e4453878ba9023d5601",
+          "name": "期末考査座席表",
+          "category": "資料",
+          "date": "2025/07/21 09:00 - 2025/07/22 11:00",
+          "groupName": "7月22日"
+        }
+      ]
+    }
+  ]
+}

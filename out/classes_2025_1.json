@@ -1,0 +1,73 @@
+{
+  "externalId": "2025_1",
+  "year": 2025,
+  "term": 1,
+  "classes": [
+    {
+      "externalId": "202511098918020101",
+      "day": 2,
+      "period": 1,
+      "title": "コンピュータ構成"
+    },
+    {
+      "externalId": "202511L00515450101",
+      "day": 3,
+      "period": 1,
+      "title": "総合英語Ⅲ"
+    },
+    {
+      "externalId": "202511L00815080101",
+      "day": 4,
+      "period": 1,
+      "title": "英語演習Ｂ"
+    },
+    {
+      "externalId": "202511G093150W0101",
+      "day": 5,
+      "period": 1,
+      "title": "持続可能性と科学技術（金１クラス）"
+    },
+    {
+      "externalId": "202511100618030101",
+      "day": 2,
+      "period": 2,
+      "title": "Ｃ言語プログラミング"
+    },
+    {
+      "externalId": "202511098818010101",
+      "day": 5,
+      "period": 2,
+      "title": "データベースシステム"
+    },
+    {
+      "externalId": "202511114218010101",
+      "day": 2,
+      "period": 3,
+      "title": "情報技術演習"
+    },
+    {
+      "externalId": "202511G053150V0101",
+      "day": 3,
+      "period": 3,
+      "title": "科学技術の失敗から学ぶ／失敗学（水３クラス）"
+    },
+    {
+      "externalId": "202511098718020101",
+      "day": 5,
+      "period": 3,
+      "title": "情報通信とネットワーク"
+    },
+    {
+      "externalId": "202511071718010101",
+      "day": 4,
+      "period": 4,
+      "title": "離散数学"
+    },
+    {
+      "externalId": "202511098718020101",
+      "day": 5,
+      "period": 4,
+      "title": "情報通信とネットワーク"
+    }
+  ]
+}
