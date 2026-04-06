@@ -1,6 +1,6 @@
 package scraping
 
-import "github.com/med-000/notifyclass/pkg/logger"
+import "github.com/med-000/tduscheexport/pkg/logger"
 
 type Scraper struct {
 	log *logger.ScraperLogger

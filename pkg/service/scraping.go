@@ -5,9 +5,9 @@ import (
 	"os"
 
 	"github.com/gocolly/colly"
-	"github.com/med-000/notifyclass/pkg/logger"
-	"github.com/med-000/notifyclass/pkg/parser"
-	"github.com/med-000/notifyclass/pkg/scraping"
+	"github.com/med-000/tduscheexport/pkg/logger"
+	"github.com/med-000/tduscheexport/pkg/parser"
+	"github.com/med-000/tduscheexport/pkg/scraping"
 )
 
 func (s *Service) FetchAll(req GetCourseRequest) (*parser.Course, error) {

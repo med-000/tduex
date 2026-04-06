@@ -1,6 +1,6 @@
 package service
 
-import "github.com/med-000/notifyclass/pkg/logger"
+import "github.com/med-000/tduscheexport/pkg/logger"
 
 type Service struct {
 	log *logger.ServiceLogger
