@@ -198,8 +198,7 @@ func parseRuntimeConfig(mode string, args []string) (appconfig.RuntimeConfig, er
 	useDialog := fs.Bool("dialog", true, "show native save dialog")
 
 	fs.Usage = func() {
-		fmt.Fprintf(fs.Output(), "Usage: %s %s [flags]\n", os.Args[0], mode)
-		fs.PrintDefaults()
+		fmt.Fprintf(fs.Output(), "usage: tduex %s [options]\n", mode)
 	}
 
 	if err := fs.Parse(args); err != nil {
@@ -244,9 +243,8 @@ func newService() (*service.Service, error) {
 }
 
 func printUsage(out *os.File) {
-	fmt.Fprintf(out, "usage: %s [classes|full] [options]\n", os.Args[0])
-	fmt.Fprintln(out, "options: -year -term -day -period -format -dialog -env -setting")
-	fmt.Fprintf(out, "example: %s full -year 2025 -term 1 -format json,csv,ics\n", os.Args[0])
+	fmt.Fprintln(out, "usage: tduex [classes|full] [options]")
+	fmt.Fprintln(out, "example: tduex full -year 2025 -term 1 -format json,csv,ics")
 }
 
 func ensureCredentials(settingPath string) error {
